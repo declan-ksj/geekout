@@ -8,7 +8,10 @@ function renderEachCard(donationItem) {
       <span>
         {donationItem.quantity} {donationItem.unit}
       </span>
-    </div>
+      <span>
+          {donationItem.division}
+      </span>
+      </div>
   );
 }
 
